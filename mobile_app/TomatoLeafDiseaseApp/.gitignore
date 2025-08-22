@@ -40,5 +40,8 @@ gradle/.tmp/
 gradle/caches/
 gradle/daemon/
 gradle/native/
-!gradle/wrapper/**
+# Do NOT commit downloaded Gradle distributions (can be huge)
+gradle/wrapper/dists/
+
+# Keep version catalog committed
 !gradle/libs.versions.toml
