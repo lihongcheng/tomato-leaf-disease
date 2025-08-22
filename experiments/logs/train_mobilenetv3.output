@@ -1,0 +1,89 @@
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 1/100 | Train Loss: 0.9168 | Val Loss: 0.7311 | Val Acc: 0.9260 | Best Acc: 0.9260
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 2/100 | Train Loss: 0.6856 | Val Loss: 0.6565 | Val Acc: 0.9554 | Best Acc: 0.9554
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 3/100 | Train Loss: 0.6398 | Val Loss: 0.6215 | Val Acc: 0.9665 | Best Acc: 0.9665
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 4/100 | Train Loss: 0.6139 | Val Loss: 0.6024 | Val Acc: 0.9725 | Best Acc: 0.9725
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 5/100 | Train Loss: 0.5954 | Val Loss: 0.5966 | Val Acc: 0.9757 | Best Acc: 0.9757
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 6/100 | Train Loss: 0.5804 | Val Loss: 0.5836 | Val Acc: 0.9795 | Best Acc: 0.9795
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 7/100 | Train Loss: 0.5706 | Val Loss: 0.5791 | Val Acc: 0.9812 | Best Acc: 0.9812
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 8/100 | Train Loss: 0.5661 | Val Loss: 0.5755 | Val Acc: 0.9807 | Best Acc: 0.9812
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 9/100 | Train Loss: 0.5629 | Val Loss: 0.5734 | Val Acc: 0.9816 | Best Acc: 0.9816
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 10/100 | Train Loss: 0.5607 | Val Loss: 0.5723 | Val Acc: 0.9826 | Best Acc: 0.9826
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 11/100 | Train Loss: 0.5821 | Val Loss: 0.5859 | Val Acc: 0.9785 | Best Acc: 0.9826
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 12/100 | Train Loss: 0.5736 | Val Loss: 0.5822 | Val Acc: 0.9785 | Best Acc: 0.9826
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 13/100 | Train Loss: 0.5652 | Val Loss: 0.5839 | Val Acc: 0.9794 | Best Acc: 0.9826
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 14/100 | Train Loss: 0.5614 | Val Loss: 0.6121 | Val Acc: 0.9654 | Best Acc: 0.9826
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 15/100 | Train Loss: 0.5547 | Val Loss: 0.5726 | Val Acc: 0.9827 | Best Acc: 0.9827
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 16/100 | Train Loss: 0.5504 | Val Loss: 0.5778 | Val Acc: 0.9807 | Best Acc: 0.9827
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 17/100 | Train Loss: 0.5472 | Val Loss: 0.5685 | Val Acc: 0.9818 | Best Acc: 0.9827
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 18/100 | Train Loss: 0.5441 | Val Loss: 0.5619 | Val Acc: 0.9858 | Best Acc: 0.9858
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 19/100 | Train Loss: 0.5413 | Val Loss: 0.5687 | Val Acc: 0.9818 | Best Acc: 0.9858
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 20/100 | Train Loss: 0.5380 | Val Loss: 0.5611 | Val Acc: 0.9852 | Best Acc: 0.9858
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 21/100 | Train Loss: 0.5355 | Val Loss: 0.5571 | Val Acc: 0.9864 | Best Acc: 0.9864
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 22/100 | Train Loss: 0.5340 | Val Loss: 0.5570 | Val Acc: 0.9872 | Best Acc: 0.9872
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 23/100 | Train Loss: 0.5321 | Val Loss: 0.5563 | Val Acc: 0.9882 | Best Acc: 0.9882
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 24/100 | Train Loss: 0.5313 | Val Loss: 0.5571 | Val Acc: 0.9877 | Best Acc: 0.9882
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 25/100 | Train Loss: 0.5302 | Val Loss: 0.5549 | Val Acc: 0.9880 | Best Acc: 0.9882
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 26/100 | Train Loss: 0.5296 | Val Loss: 0.5546 | Val Acc: 0.9884 | Best Acc: 0.9884
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 27/100 | Train Loss: 0.5289 | Val Loss: 0.5539 | Val Acc: 0.9882 | Best Acc: 0.9884
+=> 保存检查点到 ./checkpoints/MobileNetV3/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 28/100 | Train Loss: 0.5282 | Val Loss: 0.5534 | Val Acc: 0.9888 | Best Acc: 0.9888
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 29/100 | Train Loss: 0.5285 | Val Loss: 0.5536 | Val Acc: 0.9885 | Best Acc: 0.9888
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 30/100 | Train Loss: 0.5274 | Val Loss: 0.5534 | Val Acc: 0.9886 | Best Acc: 0.9888
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 31/100 | Train Loss: 0.5555 | Val Loss: 0.5947 | Val Acc: 0.9731 | Best Acc: 0.9888
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 32/100 | Train Loss: 0.5484 | Val Loss: 0.5690 | Val Acc: 0.9840 | Best Acc: 0.9888
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 33/100 | Train Loss: 0.5411 | Val Loss: 0.5638 | Val Acc: 0.9858 | Best Acc: 0.9888
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 34/100 | Train Loss: 0.5412 | Val Loss: 0.5911 | Val Acc: 0.9717 | Best Acc: 0.9888
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+Epoch 35/100 | Train Loss: 0.5389 | Val Loss: 0.5635 | Val Acc: 0.9845 | Best Acc: 0.9888
+=> 保存检查点到 ./checkpoints/MobileNetV3/latest_checkpoint.pth
+
+早停触发于epoch 36! 最佳精度: 0.9884

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">TomatoLeafDiseaseApp</string>
+    
+    <!-- Common UI -->
+    <string name="back_arrow">←</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">番茄叶病害识别</string>
+    <string name="button_history">历史</string>
+    <string name="placeholder_image">待识别的图像</string>
+    <string name="button_camera">拍照识别</string>
+    <string name="button_select_image">从相册选择</string>
+    <string name="results_title">识别结果 (Top 3):</string>
+    <string name="button_view_suggestion">查看建议</string>
+    <string name="default_result_1">1. 未识别</string>
+    <string name="default_result_2">2. 未识别</string>
+    <string name="default_result_3">3. 未识别</string>
+    
+    <!-- History Activity -->
+    <string name="history_title">识别历史</string>
+    
+    <!-- Suggestion Activity -->
+    <string name="suggestion_title">防治建议</string>
+    <string name="disease_name_placeholder">病害名称</string>
+    <string name="confidence_placeholder">置信度: -</string>
+    <string name="timestamp_placeholder">识别时间: -</string>
+    <string name="click_view_original">点击查看原图</string>
+    <string name="disease_description_title">病害描述</string>
+    <string name="disease_description_placeholder">病害描述...</string>
+    <string name="prevention_title">防治建议</string>
+    <string name="agricultural_prevention">1. 农业防治</string>
+    <string name="agricultural_suggestion_placeholder">农业防治建议...</string>
+    <string name="chemical_prevention">2. 化学防治</string>
+    <string name="chemical_suggestion_placeholder">化学防治建议...</string>
+    
+    <!-- Programmatic strings -->
+    <string name="no_history">暂无识别历史</string>
+    <string name="button_delete">删除</string>
+    <string name="toast_preview_not_implemented">预览原图功能待实现</string>
+    <string name="confidence_value">置信度: %.2f%%</string>
+    <string name="timestamp_value">识别时间: %1$s</string>
+    
+    <!-- Disease descriptions -->
+    <string name="disease_bacterial_spot_desc">番茄疮痂病是由细菌引起的病害，主要危害叶、茎和果实。叶片上出现水浸状小斑点，后扩大为深褐色至黑色、有黄色晕圈的疮痂状病斑。</string>
+    <string name="disease_early_blight_desc">番茄早疫病是一种真菌病害，主要危害叶片、茎和果实。叶片上形成暗褐色同心轮纹病斑，潮湿时病斑上会产生黑色霉层。</string>
+    <string name="disease_late_blight_desc">番茄晚疫病是一种毁灭性真菌病害，发病急、蔓延快。叶片、茎和果实均可受害，病斑呈水渍状、暗褐色，潮湿时边缘有白色霉层。</string>
+    <string name="disease_leaf_mold_desc">番茄叶霉病是保护地番茄常见病害，主要危害叶片。叶片正面出现不规则形褪绿斑，背面产生大量灰褐色霉层。</string>
+    <string name="disease_septoria_leaf_spot_desc">番茄壳针孢叶斑病，又称斑枯病，主要危害叶片。病斑圆形，中央灰白色，边缘暗褐色，上生黑色小点（病菌分生孢子器）。</string>
+    <string name="disease_spider_mites_desc">番茄红蜘蛛，即二斑叶螨，是番茄上常见的害螨。主要吸食叶片汁液，导致叶片出现黄白色小点，严重时叶片发黄、干枯，甚至全株死亡。</string>
+    <string name="disease_target_spot_desc">番茄靶斑病，又称灰叶斑病，主要危害叶片。病斑圆形或近圆形，褐色至深褐色，具有明显的同心轮纹，状如靶心。</string>
+    <string name="disease_yellow_leaf_curl_desc">番茄黄化曲叶病毒病是由烟粉虱传播的病毒病害。植株矮化，叶片变黄、卷曲、变小、变脆，生长点受抑制，严重影响开花结果。</string>
+    <string name="disease_mosaic_virus_desc">番茄花叶病毒病主要通过汁液接触传播。叶片出现黄绿相间的花叶或斑驳，有时叶片畸形、植株矮化，果实上可能出现坏死斑。</string>
+    <string name="disease_healthy_desc">植株健康，叶片舒展，颜色正常，无明显病斑或虫害迹象。</string>
+    <string name="disease_powdery_mildew_desc">番茄白粉病主要危害叶片，叶面和叶背上产生白色粉状霉层，后期叶片变黄、干枯。</string>
+    <string name="disease_unknown_desc">暂无详细信息。</string>
+    
+    <!-- Agricultural suggestions -->
+    <string name="agri_bacterial_spot">1. 选用抗病品种；2. 与非茄科作物轮作3年以上；3. 及时清除病残体；4. 加强田间管理，避免偏施氮肥，增施磷钾肥。</string>
+    <string name="agri_early_blight">1. 选用抗病品种；2. 实行轮作；3. 加强田间管理，及时排水，降低湿度；4. 及时清除病残体并集中销毁。</string>
+    <string name="agri_late_blight">1. 选用抗病品种；2. 合理密植，保持通风透光；3. 避免大水漫灌，降低田间湿度；4. 及时摘除病叶、病果并深埋。</string>
+    <string name="agri_leaf_mold">1. 选用抗病品种；2. 加强通风，降低空气湿度；3. 合理浇水，避免叶片长时间结露；4. 及时摘除下部老叶和病叶。</string>
+    <string name="agri_septoria_leaf_spot">1. 选用抗病品种；2. 实行3年以上轮作；3. 加强田间管理，增施有机肥和磷钾肥；4. 及时清除病残体。</string>
+    <string name="agri_spider_mites">1. 及时清除田间杂草和残株落叶，减少虫源；2. 保持田间适当湿度，可抑制其发生；3. 保护和利用天敌，如捕食螨、草蛉等。</string>
+    <string name="agri_target_spot">1. 选用抗病品种；2. 加强田间管理，合理密植，改善通风透光条件；3. 增施磷钾肥，提高植株抗病性；4. 及时清除病残体。</string>
+    <string name="agri_yellow_leaf_curl">1. 选用抗病品种；2. 培育无毒苗，苗期覆盖防虫网；3. 彻底清除田间及周边的杂草和感病寄主；4. 物理防治，如悬挂黄板诱杀烟粉虱。</string>
+    <string name="agri_mosaic_virus">1. 选用抗病品种；2. 种子消毒；3. 农事操作（如整枝、打杈）时，先处理健株后处理病株，并注意手和工具的消毒；4. 及时清除病株。</string>
+    <string name="agri_healthy">继续保持良好的田间管理，包括合理水肥、适时通风、及时整枝打杈等，以维持植株健康生长。</string>
+    <string name="agri_powdery_mildew">1. 选用抗病品种；2. 加强通风，降低棚内湿度；3. 及时清除病残体，减少菌源。</string>
+    <string name="agri_unknown">暂无建议。</string>
+    
+    <!-- Chemical suggestions -->
+    <string name="chem_bacterial_spot">发病初期可喷洒氢氧化铜、代森锰锌或中生菌素等药剂。</string>
+    <string name="chem_early_blight">发病初期可选用代森锰锌、百菌清或异菌脲等药剂喷雾防治。</string>
+    <string name="chem_late_blight">发病初期及时喷药，可选用霜脲·锰锌、烯酰吗啉、代森锰锌等药剂，注意交替使用。</string>
+    <string name="chem_leaf_mold">发病初期可选用多菌灵、甲基硫菌灵或氟菌·肟菌酯等药剂喷雾防治。</string>
+    <string name="chem_septoria_leaf_spot">发病初期可喷洒代森锰锌、百菌清或苯醚甲环唑等药剂。</string>
+    <string name="chem_spider_mites">发生初期可选用阿维菌素、哒螨灵、螺螨酯等杀螨剂进行喷雾防治，注意交替用药，避免产生抗性。</string>
+    <string name="chem_target_spot">发病初期可选用苯醚甲环唑、代森锰锌或嘧菌酯等药剂进行防治。</string>
+    <string name="chem_yellow_leaf_curl">重点防治传毒媒介烟粉虱，可选用吡虫啉、啶虫脒、噻虫嗪等药剂。发病初期可喷施盐酸吗啉胍、氨基寡糖素等药剂缓解病情。</string>
+    <string name="chem_mosaic_virus">目前尚无特效药剂。重点在于预防。发病初期可喷施宁南霉素、盐酸吗啉胍等药剂，配合叶面肥，以减缓病情发展。</string>
+    <string name="chem_healthy">无需化学防治。以预防为主，定期巡视，发现问题及时处理。</string>
+    <string name="chem_powdery_mildew">发病初期可选用三唑酮、特富灵或硫磺悬浮剂等药剂喷雾防治。</string>
+    <string name="chem_unknown">暂无建议。</string>
+</resources>

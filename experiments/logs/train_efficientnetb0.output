@@ -1,0 +1,48 @@
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 1/100 | Train Loss: 0.8379 | Val Loss: 0.6283 | Val Acc: 0.9575 | Best Acc: 0.9575
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 2/100 | Train Loss: 0.6283 | Val Loss: 0.5928 | Val Acc: 0.9734 | Best Acc: 0.9734
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 3/100 | Train Loss: 0.5908 | Val Loss: 0.5757 | Val Acc: 0.9796 | Best Acc: 0.9796
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 4/100 | Train Loss: 0.5737 | Val Loss: 0.5693 | Val Acc: 0.9820 | Best Acc: 0.9820
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 5/100 | Train Loss: 0.5615 | Val Loss: 0.5654 | Val Acc: 0.9834 | Best Acc: 0.9834
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 6/100 | Train Loss: 0.5522 | Val Loss: 0.5547 | Val Acc: 0.9870 | Best Acc: 0.9870
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 7/100 | Train Loss: 0.5444 | Val Loss: 0.5534 | Val Acc: 0.9881 | Best Acc: 0.9881
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 8/100 | Train Loss: 0.5429 | Val Loss: 0.5512 | Val Acc: 0.9886 | Best Acc: 0.9886
+=> 保存检查点到 ./checkpoints/efficientnetb0/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 9/100 | Train Loss: 0.5393 | Val Loss: 0.5494 | Val Acc: 0.9896 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 10/100 | Train Loss: 0.5389 | Val Loss: 0.5497 | Val Acc: 0.9888 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 11/100 | Train Loss: 0.5674 | Val Loss: 0.5699 | Val Acc: 0.9817 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 12/100 | Train Loss: 0.5610 | Val Loss: 0.5587 | Val Acc: 0.9861 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 13/100 | Train Loss: 0.5531 | Val Loss: 0.5642 | Val Acc: 0.9831 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 14/100 | Train Loss: 0.5497 | Val Loss: 0.5563 | Val Acc: 0.9863 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 15/100 | Train Loss: 0.5419 | Val Loss: 0.5558 | Val Acc: 0.9875 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 16/100 | Train Loss: 0.5389 | Val Loss: 0.5553 | Val Acc: 0.9869 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 17/100 | Train Loss: 0.5390 | Val Loss: 0.5546 | Val Acc: 0.9870 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+Epoch 18/100 | Train Loss: 0.5379 | Val Loss: 0.5501 | Val Acc: 0.9879 | Best Acc: 0.9896
+=> 保存检查点到 ./checkpoints/efficientnetb0/latest_checkpoint.pth
+
+早停触发于epoch 19! 最佳精度: 0.9896

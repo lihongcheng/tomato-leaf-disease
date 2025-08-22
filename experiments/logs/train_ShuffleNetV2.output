@@ -1,0 +1,93 @@
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 1/100 | Train Loss: 1.2108 | Val Loss: 0.7322 | Val Acc: 0.9141 | Best Acc: 0.9141
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 2/100 | Train Loss: 0.7279 | Val Loss: 0.6624 | Val Acc: 0.9449 | Best Acc: 0.9449
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 3/100 | Train Loss: 0.6711 | Val Loss: 0.6425 | Val Acc: 0.9492 | Best Acc: 0.9492
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 4/100 | Train Loss: 0.6419 | Val Loss: 0.6203 | Val Acc: 0.9614 | Best Acc: 0.9614
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 5/100 | Train Loss: 0.6172 | Val Loss: 0.6041 | Val Acc: 0.9672 | Best Acc: 0.9672
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 6/100 | Train Loss: 0.6022 | Val Loss: 0.5996 | Val Acc: 0.9694 | Best Acc: 0.9694
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 7/100 | Train Loss: 0.5955 | Val Loss: 0.5919 | Val Acc: 0.9736 | Best Acc: 0.9736
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 8/100 | Train Loss: 0.5843 | Val Loss: 0.5883 | Val Acc: 0.9736 | Best Acc: 0.9736
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 9/100 | Train Loss: 0.5827 | Val Loss: 0.5861 | Val Acc: 0.9758 | Best Acc: 0.9758
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 10/100 | Train Loss: 0.5804 | Val Loss: 0.5832 | Val Acc: 0.9763 | Best Acc: 0.9763
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 11/100 | Train Loss: 0.6006 | Val Loss: 0.5946 | Val Acc: 0.9723 | Best Acc: 0.9763
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 12/100 | Train Loss: 0.5894 | Val Loss: 0.5855 | Val Acc: 0.9737 | Best Acc: 0.9763
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 13/100 | Train Loss: 0.5816 | Val Loss: 0.5876 | Val Acc: 0.9730 | Best Acc: 0.9763
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 14/100 | Train Loss: 0.5758 | Val Loss: 0.5874 | Val Acc: 0.9724 | Best Acc: 0.9763
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 15/100 | Train Loss: 0.5712 | Val Loss: 0.5778 | Val Acc: 0.9774 | Best Acc: 0.9774
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 16/100 | Train Loss: 0.5665 | Val Loss: 0.5743 | Val Acc: 0.9789 | Best Acc: 0.9789
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 17/100 | Train Loss: 0.5609 | Val Loss: 0.5708 | Val Acc: 0.9802 | Best Acc: 0.9802
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 18/100 | Train Loss: 0.5560 | Val Loss: 0.5696 | Val Acc: 0.9810 | Best Acc: 0.9810
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 19/100 | Train Loss: 0.5521 | Val Loss: 0.5669 | Val Acc: 0.9817 | Best Acc: 0.9817
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 20/100 | Train Loss: 0.5497 | Val Loss: 0.5640 | Val Acc: 0.9827 | Best Acc: 0.9827
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 21/100 | Train Loss: 0.5477 | Val Loss: 0.5660 | Val Acc: 0.9816 | Best Acc: 0.9827
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 22/100 | Train Loss: 0.5422 | Val Loss: 0.5649 | Val Acc: 0.9832 | Best Acc: 0.9832
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 23/100 | Train Loss: 0.5417 | Val Loss: 0.5679 | Val Acc: 0.9811 | Best Acc: 0.9832
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 24/100 | Train Loss: 0.5402 | Val Loss: 0.5608 | Val Acc: 0.9841 | Best Acc: 0.9841
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 25/100 | Train Loss: 0.5389 | Val Loss: 0.5595 | Val Acc: 0.9849 | Best Acc: 0.9849
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 26/100 | Train Loss: 0.5360 | Val Loss: 0.5593 | Val Acc: 0.9851 | Best Acc: 0.9851
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 27/100 | Train Loss: 0.5360 | Val Loss: 0.5581 | Val Acc: 0.9853 | Best Acc: 0.9853
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 28/100 | Train Loss: 0.5346 | Val Loss: 0.5577 | Val Acc: 0.9858 | Best Acc: 0.9858
+=> 保存检查点到 ./checkpoints/shufflenetV2/best_checkpoint.pth
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 29/100 | Train Loss: 0.5341 | Val Loss: 0.5570 | Val Acc: 0.9859 | Best Acc: 0.9859
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 30/100 | Train Loss: 0.5351 | Val Loss: 0.5580 | Val Acc: 0.9851 | Best Acc: 0.9859
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 31/100 | Train Loss: 0.5603 | Val Loss: 0.5753 | Val Acc: 0.9790 | Best Acc: 0.9859
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 32/100 | Train Loss: 0.5569 | Val Loss: 0.5769 | Val Acc: 0.9771 | Best Acc: 0.9859
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 33/100 | Train Loss: 0.5532 | Val Loss: 0.5691 | Val Acc: 0.9790 | Best Acc: 0.9859
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+Epoch 34/100 | Train Loss: 0.5501 | Val Loss: 0.5645 | Val Acc: 0.9822 | Best Acc: 0.9859
+=> 保存检查点到 ./checkpoints/shufflenetV2/latest_checkpoint.pth
+
+早停触发于epoch 35! 最佳精度: 0.9849

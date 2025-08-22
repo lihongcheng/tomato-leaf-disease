@@ -1,0 +1,44 @@
+# ===== Android / Gradle build artifacts =====
+.gradle/
+local.properties
+
+# Build outputs
+/build/
+/app/build/
+/**/build/
+.cxx/
+.externalNativeBuild/
+captures/
+outputs/
+
+# Android packages
+*.apk
+*.ap_
+*.aab
+
+# ===== IDE settings =====
+# IntelliJ / Android Studio
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Keystores (never commit real keys) =====
+*.jks
+*.keystore
+
+# ===== Gradle project directory caches (keep wrapper and version catalog) =====
+gradle/.tmp/
+gradle/caches/
+gradle/daemon/
+gradle/native/
+!gradle/wrapper/**
+!gradle/libs.versions.toml
