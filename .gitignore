@@ -1,0 +1,47 @@
+# ===== Android / Gradle build artifacts =====
+.gradle/
+local.properties
+
+# Build outputs
+/build/
+/app/build/
+/**/build/
+.cxx/
+.externalNativeBuild/
+captures/
+outputs/
+
+# Android packages
+*.apk
+*.ap_
+*.aab
+
+# ===== IDE settings =====
+# IntelliJ / Android Studio
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Keystores (never commit real keys) =====
+*.jks
+*.keystore
+
+# ===== Gradle project directory caches (keep wrapper and version catalog) =====
+gradle/.tmp/
+gradle/caches/
+gradle/daemon/
+gradle/native/
+# Do NOT commit downloaded Gradle distributions (can be huge)
+gradle/wrapper/dists/
+mobile_app/TomatoLeafDiseaseApp/gradle/wrapper/dists/
+# Keep version catalog committed
+!gradle/libs.versions.toml
