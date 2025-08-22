@@ -42,6 +42,6 @@ gradle/daemon/
 gradle/native/
 # Do NOT commit downloaded Gradle distributions (can be huge)
 gradle/wrapper/dists/
-
+mobile_app/TomatoLeafDiseaseApp/gradle/wrapper/dists/
 # Keep version catalog committed
 !gradle/libs.versions.toml
