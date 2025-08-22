@@ -14,21 +14,6 @@ import matplotlib.font_manager as fm
 # 如果脚本在您的服务器上找不到字体，请将字体文件上传到服务器，并在此处提供正确路径。
 try:
     font_path = '/usr/share/fonts/truetype/wqy/wqy-microhei.ttc'  # 常见 Linux 路径
-    if not os.path.exists(font_path):
-        # 如果上述路径不存在，尝试其他常见路径
-        font_path = 'C:/Windows/Fonts/simhei.ttf' # Windows 路径
-    if not os.path.exists(font_path):
-         # 如果还是找不到，就从一个在线源下载
-        print("本地未找到中文字体，尝试从网络下载...")
-        import requests
-        font_url = "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC-Regular.otf"
-        font_path = "NotoSansSC-Regular.otf"
-        if not os.path.exists(font_path):
-            r = requests.get(font_url)
-            with open(font_path, 'wb') as f:
-                f.write(r.content)
-        print(f"字体已下载到 {font_path}")
-
     cn_font = fm.FontProperties(fname=font_path)
     plt.rcParams['font.family'] = cn_font.get_name()
     plt.rcParams['axes.unicode_minus'] = False # 正确显示负号
@@ -40,7 +25,7 @@ except Exception as e:
 
 
 # --- 配置 (请在您的训练服务器上确认这些路径) ---
-DATASET_ROOT = '/root/autodl-tmp/tomato/dataset'
+DATASET_ROOT = "/toyoudatasetrpath/" #数据集根目录
 CSV_PATH = os.path.join(DATASET_ROOT, 'metadata/master.csv')
 OUTPUT_FILENAME = 'Fig2-2_data_augmentation_examples_corrected.png'
 TARGET_SIZE = (224, 224)
@@ -93,48 +78,31 @@ def get_visualization_transforms():
     # ---
 
     # 1. 单独的、用于清晰可视化的变换（保持原图尺寸，统一缩放在可视化阶段完成）
-    #    single_transforms = {
-    #        "水平翻转": A.Compose([
-    #            A.HorizontalFlip(p=1.0),
-    #        ]),
-    #        "色彩抖动": A.Compose([
-    #            # 参数稍微夸张以便于观察
-    #            A.ColorJitter(brightness=0.4, contrast=0.4, saturation=0.4, hue=0.2, p=1.0),
-    #        ]),
-    #        "随机缩放裁剪": A.Compose([
-    #            random_crop_op
-    #        ])
-    #    }
-    +    transforms = OrderedDict()
-    +    transforms["1. 随机剪切与缩放"] = A.Compose([
-    +        random_crop_op
-    +    ])
-    +    transforms["2. 增加水平翻转"] = A.Compose([
-    +        A.HorizontalFlip(p=1.0),
-    +    ])
-    +    transforms["3. 增加颜色抖动"] = A.Compose([
-    +        # 参数稍微夸张以便于观察
-    +        A.ColorJitter(brightness=0.4, contrast=0.4, saturation=0.4, hue=0.2, p=1.0),
-    +    ])
+    transforms = OrderedDict()
+    transforms["1. 随机剪切与缩放"] = A.Compose([
+        random_crop_op
+    ])
+    transforms["2. 增加水平翻转"] = A.Compose([
+        A.HorizontalFlip(p=1.0),
+    ])
+    transforms["3. 增加颜色抖动"] = A.Compose([
+        # 参数稍微夸张以便于观察
+        A.ColorJitter(brightness=0.4, contrast=0.4, saturation=0.4, hue=0.2, p=1.0),
+    ])
     
-     # 2. 模拟真实训练的组合变换 (源自 data_process.py)
-     # 不包含归一化（Normalize）和ToTensorV2，以便于可视化
-     combined_transform = A.Compose([
-         combined_crop_op,
-         A.HorizontalFlip(p=0.5),
-         A.ColorJitter(brightness=0.2, contrast=0.2, p=0.8),
-     ])
+    # 2. 模拟真实训练的组合变换 (源自 data_process.py)
+    # 不包含归一化（Normalize）和ToTensorV2，以便于可视化
+    combined_transform = A.Compose([
+        combined_crop_op,
+        A.HorizontalFlip(p=0.5),
+        A.ColorJitter(brightness=0.2, contrast=0.2, p=0.8),
+    ])
      
--    # 将组合变换添加到字典中
--    single_transforms["组合增强 (示例1)"] = combined_transform
--    single_transforms["组合增强 (示例2)"] = combined_transform
--    
--    return single_transforms
-+    # 将组合变换添加到字典中，并确保顺序与示例图一致
-+    transforms["4. 完整组合增强（示例1）"] = combined_transform
-+    transforms["5. 完整组合增强（示例2）"] = combined_transform
-+    
-+    return transforms
+    # 将组合变换添加到字典中，并确保顺序与示例图一致
+    transforms["4. 完整组合增强（示例1）"] = combined_transform
+    transforms["5. 完整组合增强（示例2）"] = combined_transform
+    
+    return transforms
 
 def visualize_augmentations(image, transforms_dict):
     """应用变换并使用Matplotlib绘制结果。"""
@@ -148,53 +116,45 @@ def visualize_augmentations(image, transforms_dict):
     # 根据新的布局调整画布大小 (每张子图约2.4x2.6英寸，更紧凑)
     fig = plt.figure(figsize=(2.4 * ncols, 2.6 * nrows))
 
-     # 添加一个居中的大标题
-     fig.suptitle(
--        '训练时数据增强策略效果对比',
--        fontsize=16,          # 字体略小以适配更紧凑的画布
-+        '训练时数据增强策略效果对比（修正版）',
-+        fontsize=14,          # 更小的主标题字号
-         fontweight='bold',    # 加粗
--        y=0.98,               # 调整y坐标，使其更靠近顶部
-+        y=0.985,              # 更靠近顶部
-         fontproperties=cn_font
-     )
+    # 添加一个居中的大标题
+    fig.suptitle(
+        '训练时数据增强策略效果对比（修正版）',
+        fontsize=14,          # 更小的主标题字号
+        fontweight='bold',    # 加粗
+        y=0.985,              # 更靠近顶部
+        fontproperties=cn_font
+    )
 
-     # 1. 显示原始图像 (统一调整大小以便公平比较)
-     plt.subplot(nrows, ncols, 1)
-     # 使用 INTER_AREA 插值以在缩小时获得更好的效果
-     resized_image = cv2.resize(image, TARGET_SIZE, interpolation=cv2.INTER_AREA)
-     plt.imshow(resized_image)
--    plt.title('原始图像\n(已缩放)', fontproperties=cn_font)
-+    plt.title('原始图像 (Resized)', fontproperties=cn_font, fontsize=10, pad=6)
-     plt.axis('off')
+    # 1. 显示原始图像 (统一调整大小以便公平比较)
+    plt.subplot(nrows, ncols, 1)
+    # 使用 INTER_AREA 插值以在缩小时获得更好的效果
+    resized_image = cv2.resize(image, TARGET_SIZE, interpolation=cv2.INTER_AREA)
+    plt.imshow(resized_image)
+    plt.title('原始图像 (Resized)', fontproperties=cn_font, fontsize=10, pad=6)
+    plt.axis('off')
 
-     # 2. 显示经过各种增强的图像
-     for i, (name, transform) in enumerate(transforms_dict.items()):
-         # 重置随机种子，确保“组合示例”每次都不同
-         np.random.seed(SEED + i)
+    # 2. 显示经过各种增强的图像
+    for i, (name, transform) in enumerate(transforms_dict.items()):
+        # 重置随机种子，确保"组合示例"每次都不同
+        np.random.seed(SEED + i)
 
-         # 应用变换
-         augmented_image = transform(image=image)['image']
+        # 应用变换
+        augmented_image = transform(image=image)['image']
 
-         # 在显示前，统一将所有图像（包括未被albumentations调整大小的）调整到目标尺寸
-         augmented_image_resized = cv2.resize(augmented_image, TARGET_SIZE, interpolation=cv2.INTER_AREA)
+        # 在显示前，统一将所有图像（包括未被albumentations调整大小的）调整到目标尺寸
+        augmented_image_resized = cv2.resize(augmented_image, TARGET_SIZE, interpolation=cv2.INTER_AREA)
 
-         ax = plt.subplot(nrows, ncols, i + 2)
-         ax.imshow(augmented_image_resized)
--        ax.set_title(name, fontproperties=cn_font, fontsize=11)
-+        ax.set_title(name, fontproperties=cn_font, fontsize=9, pad=6)
-         ax.axis('off')
+        ax = plt.subplot(nrows, ncols, i + 2)
+        ax.imshow(augmented_image_resized)
+        ax.set_title(name, fontproperties=cn_font, fontsize=9, pad=6)
+        ax.axis('off')
 
--    # 使用 tight_layout 并调整，防止标题重叠
--    plt.tight_layout(rect=[0, 0.03, 1, 0.95])
--    plt.savefig(OUTPUT_FILENAME, dpi=180)
-+    # 使用更细致的间距控制，避免文字覆盖图像
-+    fig.subplots_adjust(left=0.06, right=0.98, bottom=0.06, top=0.86, wspace=0.25, hspace=0.55)
-+    plt.savefig(OUTPUT_FILENAME, dpi=150)
-     print(f"对比图已成功保存到: {OUTPUT_FILENAME}")
-     # 在非交互式环境中，注释掉 plt.show()
-     # plt.show()
+    # 使用更细致的间距控制，避免文字覆盖图像
+    fig.subplots_adjust(left=0.06, right=0.98, bottom=0.06, top=0.86, wspace=0.25, hspace=0.55)
+    plt.savefig(OUTPUT_FILENAME, dpi=150)
+    print(f"对比图已成功保存到: {OUTPUT_FILENAME}")
+    # 在非交互式环境中，注释掉 plt.show()
+    # plt.show()
 
 # --- 主程序 ---
 if __name__ == "__main__":

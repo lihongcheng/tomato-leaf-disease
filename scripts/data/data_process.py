@@ -16,7 +16,7 @@ import torch
 
 # 全局配置
 class Config:
-    DATA_ROOT = "/root/autodl-tmp/tomato/dataset"
+    DATA_ROOT = "/toyoudatasetrpath/" #数据集根目录
     AUG_DIR = os.path.join(DATA_ROOT, "augmented")
     META_DIR = os.path.join(DATA_ROOT, "metadata")
     SPLIT_RATIO = (0.7, 0.15, 0.15)

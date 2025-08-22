@@ -42,7 +42,7 @@ log_files = [
 all_data = []
 for log_file, model_name in log_files:
     try:
-        file_path = f"/Users/lihongcheng/Downloads/tomota/{log_file}"
+        file_path = f"/yourlogpath/{log_file}"
         model_data = parse_log(file_path, model_name)
         if model_data:
             all_data.extend(model_data)
@@ -82,6 +82,6 @@ else:
     plt.tight_layout()
 
     # Save the figure
-    output_path = "/Users/lihongcheng/Downloads/tomota/Fig5-4_training_loss_convergence_regenerated.svg"
+    output_path = "/yoursvgpath/Fig5-4_training_loss_convergence_regenerated.svg"
     plt.savefig(output_path, format='svg')
     print(f"Plot saved to {output_path}")

@@ -17,7 +17,7 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 BATCH_SIZE = 64
 NUM_WORKERS = 8
 IMAGE_SIZE = (224, 224)
-MASTER_CSV = "/root/autodl-tmp/tomato/dataset/metadata/master.csv"
+MASTER_CSV = "/toyoudatasetrpath/metadata/master.csv" #元数据目录
 CHECKPOINTS = {
     "MobileNetV3_small": "./checkpoints/MobileNetV3/best_checkpoint.pth",
     "EfficientNet_B0": "./checkpoints/efficientnetb0/best_checkpoint.pth",
