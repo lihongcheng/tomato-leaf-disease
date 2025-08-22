@@ -45,3 +45,5 @@ gradle/wrapper/dists/
 mobile_app/TomatoLeafDiseaseApp/gradle/wrapper/dists/
 # Keep version catalog committed
 !gradle/libs.versions.toml
+# Ignore Gradle wrapper binary zips
+mobile_app/TomatoLeafDiseaseApp/gradle/wrapper/*.zip
